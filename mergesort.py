@@ -9,13 +9,8 @@ def merge_sort2(m):
     middle = len(m) // 2
 
     # Split the list at the pivot
-<<<<<<< HEAD
-    left = m[:middle]
-    right = m[middle:]
-=======
     right = m[middle:]
     left = m[:middle]
->>>>>>> Mergesort-Impl
 
     # Sort recursively
     right = merge_sort2(right)
